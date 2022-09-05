@@ -1,12 +1,11 @@
 *{
     margin: 0;
+    font-family: 'Roboto Mono', monospace; 
 }
-
 body{
     background-color: #fff;
 }
-
-.container{
+.header{
     background: #4B79A1;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #283E51, #4B79A1);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #283E51, #4B79A1); 
@@ -27,8 +26,7 @@ body{
     padding-top: 3vh;
     font-weight: bold;
     font-size: 3vh;
-    color: #ffff;
-    
+    color: #ffff;   
 }
 .profileImage{
     margin-top: 20px;
@@ -38,12 +36,70 @@ body{
     width: 200px;
     height: 200px;
 }
-
 .description{
     padding-top: 10px;
     font-size: 15px;
     font-weight: 300;
 }
+.aboutmeHeader{
+    text-align: center;
+    padding-top: 25px;
+    text-decoration: underline;
+    text-decoration-color: grey;
+}
+.aboutMeContents{
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;   
+}
+.content{
+    padding-top: 20px;
+    margin-left: 20px;
+    text-align:justify;
+    font-size: 15px;
+    font-weight: normal;
+    color: #000;
+}
 
+.box{
+    background-color: aliceblue;
+    padding: 10px 30px;
+    height: 40vh;
+    margin:20px;
+    z-index: 2;
+}
 
+.aboubtme{
+    background-color: aqua;
+    height: 60vh;
+}
+.professionlExperience{
+    background-color: yellow;
+}
+.projectsSection{
+    background-color: red;
+    
+}
 
+.professionalHeader{
+    text-align: center;
+    padding-top: 25px;
+    text-decoration: underline;
+}
+.projectsHeader{
+    text-align: center;
+    padding-top: 25px;
+    text-decoration: underline;
+    
+}
+
+.footerSection{
+position: relative;
+  left: 0;
+  bottom: 0;
+  height: 15vh;
+  width: 100%;
+  background-color: #000;
+  color: white;
+  text-align: center;
+}

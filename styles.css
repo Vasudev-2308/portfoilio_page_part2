@@ -1,18 +1,24 @@
-*{
+* {
     margin: 0;
-    font-family: 'Roboto Mono', monospace; 
+    font-family: 'Roboto Mono', monospace;
 }
-body{
+
+body {
     background-color: #fff;
 }
-.header{
-    background: #4B79A1;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #283E51, #4B79A1);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #283E51, #4B79A1); 
+
+.header {
+    background: #4B79A1;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #283E51, #4B79A1);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #283E51, #4B79A1);
     display: flex;
-    flex-direction: row;/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    flex-direction: row;
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
-.element{
+
+.element {
     width: 100vw;
     height: 30vh;
     display: flex;
@@ -20,15 +26,17 @@ body{
     flex-direction: column;
     text-align: center;
 }
-.namebox{
+
+.namebox {
     margin-top: 30px;
     margin-right: 200px;
     padding-top: 3vh;
     font-weight: bold;
     font-size: 3vh;
-    color: #ffff;   
+    color: #ffff;
 }
-.profileImage{
+
+.profileImage {
     margin-top: 20px;
     border-radius: 100%;
     border: #fff solid 3px;
@@ -36,70 +44,110 @@ body{
     width: 200px;
     height: 200px;
 }
-.description{
+
+.description {
     padding-top: 10px;
     font-size: 15px;
     font-weight: 300;
 }
-.aboutmeHeader{
+
+.aboutmeHeader {
     text-align: center;
     padding-top: 25px;
     text-decoration: underline;
     text-decoration-color: grey;
 }
-.aboutMeContents{
-    justify-content: space-between;
+
+.aboutMeContents {
+    justify-content: space-around;
     display: flex;
-    flex-direction: row;   
+    flex-direction: row;
 }
-.content{
+
+.content {
     padding-top: 20px;
     margin-left: 20px;
-    text-align:justify;
+    text-align: justify;
     font-size: 15px;
     font-weight: normal;
     color: #000;
 }
 
-.box{
+.box {
     background-color: aliceblue;
     padding: 10px 30px;
     height: 40vh;
-    margin:20px;
+    margin: 20px;
     z-index: 2;
 }
 
-.aboubtme{
-    background-color: aqua;
+.aboubtme {
+    background-color: #D3d3d3;
     height: 60vh;
 }
-.professionlExperience{
+
+.professionlExperience {
     background-color: yellow;
 }
-.projectsSection{
+
+.projectsSection {
     background-color: red;
-    
 }
 
-.professionalHeader{
+.professionalHeader {
     text-align: center;
     padding-top: 25px;
     text-decoration: underline;
 }
-.projectsHeader{
+
+.projectsHeader {
     text-align: center;
     padding-top: 25px;
     text-decoration: underline;
+}
+
+.footerSection {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    height: 15vh;
+    width: 100%;
+    background-color: #000;
+    color: white;
+    text-align: center;
+}
+
+.card-body{
+    background-color: #BDBDBD;
+    transition: 0.5s;
+    text-align: justify;
+}
+
+.card-body:hover {
+    box-shadow: 0 0 3px grey;
+    margin-top: -10px;
+  }
+
+.card-text{
+    padding-top: 10px;
+}
+
+.professionlExperience{
+    height: 60vh;
     
 }
 
-.footerSection{
-position: relative;
-  left: 0;
-  bottom: 0;
-  height: 15vh;
-  width: 100%;
-  background-color: #000;
-  color: white;
-  text-align: center;
+.projectItems{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 20px;
+}
+
+.projectsSection{
+    height: 60vh;
+}
+
+.project{
+    margin-right: 20px;
 }
